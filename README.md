@@ -4,20 +4,18 @@ This dashboard presents a comprehensive breakdown of a survey conducted among da
 
 1. Data Collection
 Objective: Gather data on data professionals' demographics, job roles, salaries, programming language preferences, and job satisfaction.
-
 Method:
 Survey: Distribute an online survey to data professionals using platforms like Google Forms or SurveyMonkey. Collect responses on various factors such as country of residence, job title, favorite programming languages, perceived difficulty in entering the field, salary, work/life balance, and overall job satisfaction.
-3. Data Cleaning
 
+2. Data Cleaning
 Objective: Prepare the raw survey data for analysis by ensuring it is accurate and consistent.
-
 Steps:
 Remove Duplicates: Identify and eliminate any duplicate survey entries.
 Handle Missing Data: Address any missing responses by either removing incomplete records or using imputation techniques where appropriate.
 Standardize Entries: Ensure consistency in text fields like job titles (e.g., “Data Scientist” vs. “Data scientist”), country names, and programming languages.
 Correct Data Errors: Fix any data entry errors, such as incorrect salary figures or misclassified job titles.
 
-4. Exploratory Data Analysis (EDA)
+3. Exploratory Data Analysis (EDA)
 Objective: Gain insights into the structure and characteristics of the survey data.
 Steps:
 Summary Statistics: Compute basic statistics such as the average age of respondents and distribution of job roles.
@@ -25,14 +23,14 @@ Distribution Analysis: Use bar charts and histograms to explore the distribution
 Correlation Analysis: Examine relationships between variables, such as the correlation between job title and salary.
 Outlier Detection: Identify and review any extreme values (e.g., unusually high salaries) to determine if they are valid.
 
-6. Data Transformation
+4. Data Transformation
 Objective: Prepare data for visual representation by summarizing and transforming it as necessary.
 Steps:
 Aggregation: Calculate average salaries by job title and average scores for work/life balance and salary satisfaction.
 Categorization: Group countries into categories like "United States," "India," "Other," etc.
 Create New Variables: If needed, create new metrics or categories, such as classifying satisfaction scores into ranges (e.g., low, medium, high).
 
-8. Data Visualization
+5. Data Visualization
 Objective: Create visual representations of the data for easy interpretation.
 
 Steps:
